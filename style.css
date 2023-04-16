@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.left-images,
+.right-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-images img,
+.right-images img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+.social a {
+  display: inline-block;
+  margin-left: 1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #f1c40f;
+}
+
+.about,
+.me {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about h2,
+.me h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.about p,
+.me p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.about,
+.me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
